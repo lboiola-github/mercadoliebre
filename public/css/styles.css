@@ -243,16 +243,6 @@ footer {
     transition: all .5s ease-in-out;
 }
 
-.footer-items:hover i {
-    font-size: 4rem;
-    color: white;
-    background-color: var(--Celeste);
-    padding: 2rem;
-    border-radius: 50%;
-    
-}
-
-
 @media (min-width: 769px) {
     .descripcion {
         display: block;
