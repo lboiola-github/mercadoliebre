@@ -5,7 +5,7 @@ const app = express();
 // Acceso a carpeta public
 app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
-app.listen(3000, () => {
+app.listen(process.env.PORT || 3000, () => {
     console.log('Servidor corriendo en puerto 3000')
 })
 
